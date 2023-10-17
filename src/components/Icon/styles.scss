@@ -1,0 +1,20 @@
+.custom-icon {
+  svg {
+    cursor: pointer;
+
+    circle {
+      fill: black;
+    }
+    path {
+      fill: white;
+    }
+    &:hover {
+      circle {
+        fill: white;
+      }
+      path {
+        fill: black;
+      }
+    }
+  }
+}

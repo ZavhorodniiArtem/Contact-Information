@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #FBFBFB;
+}
+
+:where(.css-dev-only-do-not-override-amq5gd).ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+    background: black;
+    border: none;
+}
+
+:where(.css-dev-only-do-not-override-amq5gd).ant-radio-wrapper .ant-radio-checked .ant-radio-inner:hover {
+    background: black;
+    border: none;
+}
+
+:where(.css-dev-only-do-not-override-amq5gd).ant-input:focus, :where(.css-dev-only-do-not-override-amq5gd).ant-input:focus-within {
+    border-color: black;
+}
